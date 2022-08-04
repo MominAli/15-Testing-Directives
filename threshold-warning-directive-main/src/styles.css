@@ -1,0 +1,23 @@
+html {
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+}
+
+body {
+  margin: 1rem;
+}
+
+input[type='number'] {
+  background-color: #fff;
+  border: 2px solid #aaa;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1;
+  padding: 0.5rem;
+}
+
+input[type='number'].overThreshold {
+  background-color: #fe9;
+}
